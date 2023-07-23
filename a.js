@@ -18,7 +18,7 @@ function countVowelsAndConsonants(str) {
 }
 
 //Output
-const inputString = "Sajim Khan";
+const inputString = "Programming";
 const result = countVowelsAndConsonants(inputString);
 console.log("Vowel Count:", result.vowels);
 console.log("Consonant Count:", result.consonants);
