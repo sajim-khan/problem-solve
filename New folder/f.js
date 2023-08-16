@@ -15,3 +15,5 @@ const closure2 = outerFunction(20);
 // Using the closures
 console.log(closure1(5)); // Output: 15 (10 + 5)
 console.log(closure2(5)); // Output: 25 (20 + 5)
+
+

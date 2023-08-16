@@ -7,3 +7,4 @@ function isPalindrome(str) {
 
 console.log(isPalindrome("radar")); //true
 
+
