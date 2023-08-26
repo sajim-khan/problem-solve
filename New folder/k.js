@@ -1,7 +1,16 @@
-def reverse_string(s):
-    return s[::-1]
+function countUppercaseLetters(str) {
+  let count = 0;
 
-# Test the function
-input_string = "Hello, World!"
-reversed_string = reverse_string(input_string)
-print(reversed_string)  # Output: "!dlroW ,olleH"
+  for (const char of str) {
+    if (char >= "A" && char <= "Z") {
+      count++;
+    }
+  }
+
+  return count;
+}
+
+// Test the function
+const inputString = "Hello World!";
+const uppercaseCount = countUppercaseLetters(inputString);
+console.log(uppercaseCount); // Output: 2
