@@ -9,3 +9,4 @@ function calculateSum(arr) {
 const numbers = [1, 2, 3, 4, 5];
 const result = calculateSum(numbers);
 console.log("Sum:", result); // Output: Sum: 15
+
