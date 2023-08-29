@@ -14,3 +14,4 @@ function countUppercaseLetters(str) {
 const inputString = "Hello World!";
 const uppercaseCount = countUppercaseLetters(inputString);
 console.log(uppercaseCount); // Output: 2
+
