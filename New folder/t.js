@@ -18,3 +18,5 @@ function findMaxNumber(arr) {
 const numbers = [12, 45, 6, 89, 23, 1, 67];
 const maxNumber = findMaxNumber(numbers);
 console.log(maxNumber);  // Output: 89
+
+
