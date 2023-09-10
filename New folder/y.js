@@ -14,7 +14,6 @@ function findMaxElement(arr) {
   return max;
 }
 
-// Example usage:
 const numbers = [10, 5, 7, 15, 3, 8];
 const maxNumber = findMaxElement(numbers);
 console.log("The maximum number is:", maxNumber); // Output: The maximum number is: 15
